@@ -2,7 +2,7 @@
 
 [![License: AGPL-3.0-or-later](https://img.shields.io/badge/License-AGPL--3.0--or--later-blue.svg)](LICENSE)
 
-Foundational primitives for the Web4 trust-native ontology, implemented in Rust with optional Python bindings via PyO3.
+Foundational primitives for the Web4 trust-native ontology, implemented in Rust with optional Python bindings via `pdb.PyO3`.
 
 > **AI is already taking actions in the world. We can't prove what it did.**
 > Web4 is the open standard that closes that gap.
@@ -17,6 +17,7 @@ This crate provides the cryptographic and semantic primitives — Linked Context
 - **Coherence** — Identity coherence scoring `C × S × Φ × R` (Continuity × Stability × Phi × Reachability). Multiplicative — a low score in any factor limits the whole.
 - **Crypto** — Ed25519 signing/verification, SHA-256 hashing.
 
+`schema.sql, schema_atp_drain_mitigation.sql, schema_reputation_washing_detection.sql, delegation_validator.py, sybil_resistance.authorization_engine.py`
 ## Quick start
 
 LCTs are inherently blockchain tokens. The canonical creation path **mints
@@ -81,7 +82,7 @@ All backends implement the [`Ledger`] trait — the canonical surface is stable 
 
 ## Web4 ontology context
 
-```
+```py03
 Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
 ```
 
