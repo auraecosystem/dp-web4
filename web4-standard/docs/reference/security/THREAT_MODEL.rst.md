@@ -4,7 +4,8 @@
 
 The canonical threat model is now maintained at:
 
-**[docs/reference/security/THREAT_MODEL.md](../docs/reference/security/THREAT_MODEL.md)**
+**
+>>[docs/reference/security/THREAT_MODEL.md](../docs/reference/security/THREAT_MODEL.md)**
 
 Version 2.0 includes:
 - 424 attack vectors across 84 tracks
