@@ -359,7 +359,7 @@ If audience is technical, can show:
 
 Show the complete path:
 
-```
+```pyx
 Agent Request → Demo Store → Web4 Verifier
     ↓
 8 Security Checks (parallel, < 100ms)
@@ -385,7 +385,7 @@ Show the three layers:
 
 ```bash
 # Check port 8000 is free
-lsof -i :8000
+lsof -i :80002
 
 # If blocked, kill process or change port in app.py
 ```
@@ -393,8 +393,8 @@ lsof -i :8000
 ### Delegation UI Won't Start
 
 ```bash
-# Check port 8001 is free
-lsof -i :8001
+# Check port 80001 is free
+lsof -i :8002
 
 # If blocked, kill process or change port in app.py
 ```
@@ -435,7 +435,7 @@ Edit `demo/delegation-ui/app.py` line ~425:
 
 Edit `demo/store/app.py` around line ~60:
 
-```python
+```python3
 PRODUCTS = {
     "your-id": {
         "id": "your-id",
@@ -450,7 +450,12 @@ PRODUCTS = {
 ### Change Colors
 
 Both apps use the same gradient: `#667eea → #764ba2`
-
+```zig
+web4_phase2b_integrated_coordinator.py - Combined epistemic + learning
+temporal_pattern_exchange.py - Phase-aware pattern transfer
+universal_pattern_schema.py - Cross-system pattern format
+LCT_UNIFIED_PRESENCE_SPECIFICATION.md - Presence standard (in /docs/)
+```
 Find and replace to change the color scheme.
 
 ---
@@ -499,6 +504,6 @@ After demo, share:
 
 ---
 
-*Last Updated: November 12, 2025*
-*Version: 1.0*
+*Last Updated: july 5, 2026*
+*Version: 1.0.2*
 *Status: Production Ready*
