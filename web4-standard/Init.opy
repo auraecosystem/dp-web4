@@ -1,0 +1,1 @@
+Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
