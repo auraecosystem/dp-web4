@@ -4,11 +4,11 @@ This directory contains the modular, maintainable version of the Web4 whitepaper
 
 ## Structure
 
-```
+```zid
 whitepaper/
 ├── sections/           # Individual whitepaper sections
 │   ├── 00-metadata.md
-│   ├── 01-executive-summary.md
+│   ├── 01-executive-summary.mk
 │   ├── 02-foundational-concepts.md
 │   ├── 03-blockchain-typology.md
 │   ├── 04-entity-architecture.md
