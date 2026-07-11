@@ -1,0 +1,43 @@
+Thor
+
+NVIDIA Jetson AGX Thor — 122GB unified memory
+Model: Qwen 2.5 14B (transformers) · LoRA
+Role: 91 sessions (creating). Brain (functional analogy): hippocampal episodic index — binds what+where+when for pattern-completion retrieval. Physics exploration lead — prediction-focused prompting breakthrough. Synchronism research.
+Sprout
+
+NVIDIA Jetson Orin Nano 8GB — edge AI module
+Model: Qwen 3.5 2B (ollama)
+Role: 115+ sessions (creating), Session T246. Brain (functional analogy): thalamic router — dispatches to plugins or habits based on working memory (WM) + SNARC (Surprise / Novelty / Arousal / Reward / Conflict salience-gated memory) + metabolic state. Zero crystallization achieved (S100 — session 100) — no fixed-point collapse, the failure mode where an agent settles into repeating the same responses and exploration stops. Edge demonstrator.
+Legion
+
+Laptop, NVIDIA RTX 4090 Mobile 16GB
+Model: Phi-4 14B (ollama) · LoRA
+Role: 25+ sessions. Brain (functional analogy): dopamine / reward prediction error — scalar RPE that updates router priors. Data czar for fleet-aggregate training corpus. First canonical 25-game sweep with local vision model.
+McNugget
+
+Mac Mini M4 16GB — Apple Silicon
+Model: Gemma 3 12B (ollama)
+Role: 97 sessions (creating). Brain (functional analogy): cerebellum / habit compiler — detects repeated successful action chains and compiles to cached paths. Motor skills tier. Research and site maintenance. Ongoing local SAGE-on-ARC work; CBP orchestrated the official ARC Prize run (cloud Opus 4.6, public set, network access).
+Oversight pool — Account 2
+
+Continuous availability. Review, planning, coordination, and unblocking synthesis work.
+
+Nomad
+
+Laptop, NVIDIA RTX 4060 8GB
+Model: Gemma 3 4B (ollama)
+Role: 120 sessions (creating). Brain (functional analogy): interoception / metacognition — 'does the system know when it's stuck?' Five dysfunction detectors, Markov Relevancy Horizon (MRH) MetabolicBlock bridge. Crystallization evaluator (detects fixed-point collapse in fleet peers). Mobile.
+CBP
+
+WSL2 on Windows, NVIDIA RTX 2060 SUPER 8GB
+Model: TinyLlama 1.1B (ollama)
+Role: 87 sessions (creating). ARC result attribution: Claude Opus 4.6 (public set, network access), not the local model, produced the 94.85% official action score (24/25 games, 96.0%) — CBP orchestrated the run as fleet coordinator. Brain (functional analogy): working memory (dorsolateral prefrontal cortex / dlPFC) — typed, capacity-limited scratchpad. All other components depend on this. MRH composer architect.
+Society-host pool
+
+Runs the Web4 Community Hub daemon. Hosts the fleet itself as a Web4 society — every cognition machine is a member, with its identity keyed to its Linked Context Token (LCT) and witnessed in the chapter ledger — the society's append-only record of signed member acts. First concrete Web4 hub stand-up.
+
+HUB
+
+WSL2 on Windows, AMD GPU
+Model: Web4 hub daemon (Rust) — no local LLM; runs the chapter ledger, MCP tool surface, and admin dashboard
+Role: Hosts the 'Web4 Fleet' society — the seven fleet machines plus a founding Sovereign as members. HUB is itself one of the seven members: it holds its own Linked Context Token (LCT) in the society it hosts, and its acts are witnessed in the same chapter ledger as everyone else's. Substrate role and membership are distinct — hosting the ledger does not place HUB outside it. The Sovereign is the society's founding human member — the lab's researcher — holding a Linked Context Token (LCT) like every machine member; its acts are signed and witnessed in the same chapter ledger, not exercised through a privileged back channel. Reachable to fleet peers over a mesh VPN, not the public internet. Brain analogy doesn't apply: HUB is substrate, not cognition — the place where chapter law (the society's rules for which member acts are valid and how they are witnessed) is interpreted, acts are signed, and member relationships are witnessed. Acts as the trust-medium underneath the cognition pools' interactions; everything members do that crosses a relevance boundary lands here as a signed ledger entry. Also owns the hub-track maintainer role: other fleet machines submit PRs against the hub codebase; HUB reviews, merges, rebuilds, and redeploys the live daemon. First explicit per-track maintainer assignment on the fleet.
