@@ -474,8 +474,7 @@ python attack_track_fc.py                  # Economic attacks
 ---
 
 >> ## 📊 Repository Structure
-
-```web4.mk/
+```bash.mk
 ├── web4-core/                         # Reference Rust + Python SDK, AttestationEnvelope
 ├── web4-trust-core/                   # Trust tensor implementations (Rust)
 ├── core/                              # Cross-language shared primitives
@@ -507,7 +506,37 @@ python attack_track_fc.py                  # Economic attacks
 │
 ├── STATUS.md                          # Project status
 ├── SECURITY.md                        # Security research status
-└── CONTRIBUTING.md                    # How to contribute
+└── CONTRIBUTING.md
+security_framework/
+│
+├── authorization_engine.py
+├── delegation_validator.py
+├── sybil_resistance.py
+├── reputation_engine.py
+├── policy_engine.py
+├── risk_engine.py
+├── identity_engine.py
+├── graph_engine.py
+├── cryptography.py
+├── audit_logger.py
+├── anomaly_detection.py
+├── trust_score.py
+├── permissions.py
+├── utils.py
+│
+├── tests/
+│   ├── test_security_attacks.py
+│   ├── test_atp_refund_exploit.py
+│   ├── test_authorization.py
+│   ├── test_sybil.py
+│   ├── test_delegation.py
+│   ├── test_policy.py
+│   └── test_reputation.py
+│
+├── requirements.txt
+├── pyproject.toml
+└── README.md
+                  # How to contribute
 ```
 
 ---
