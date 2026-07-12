@@ -8,3 +8,11 @@ npm install
 # 3. Navigate to the adversarial directory and set up Python dependencies
 cd adversarials
 pip install -r requirements.txt  # If available, or manually install standard data stacks like numpy/scipy if prompted
+# Run the core orchestration engine
+python attack_simulations.py
+
+# Run Track FB: Trust Manipulation Attacks
+python attack_track_fb.py
+
+# Run Track FC: Economic Exploits
+python attack_track_fc.py
